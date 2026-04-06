@@ -1,0 +1,22 @@
+# Obsidian Vault Git 配置
+# 仅跟踪 Markdown 知识内容，排除配置和大型媒体
+
+# Obsidian 配置（由 Obsidian Sync 管理）
+.obsidian/
+.trash/
+
+# 大型媒体文件（Obsidian Sync 处理）
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.mp3
+**/*.mp4
+**/*.pdf
+**/*.docx
+
+# Obsidian Sync 元数据
+.obsidian-sync/
+
+# 系统文件
+.DS_Store
