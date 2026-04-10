@@ -61,3 +61,32 @@
 - 总 Wiki 页面：64 → 82 个
 - 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
 - 主题页控制在 500-800 字，概念页控制在 200-400 字
+
+## [2026-04-07] lint | 深夜反思知识库检查
+- 检查结果：知识库结构完整（82个页面），无孤立页面
+- 发现：缺少企业级Agent、Claude Code Channels、KDD Cup 2026最新信息
+- 新增实体：Meta REA（企业级自主Agent）、Claude Code Channels（OpenClaw竞争者）
+- 新增主题：企业级AI Agent趋势、KDD Cup 2026创新奖
+- 新增概念：Hibernate-and-Wake机制、Dual-Source Hypothesis Engine
+- 建议更新：企业级Agent内容、KDD Cup 2026信息、Claude Code Channels分析
+- 来源：基于2026-04-06深夜反思活动，通过企业级Agent调研发现的新知识
+- 状态：完成检查，准备更新知识库
+
+## [2026-04-08] lint | 深夜反思知识库检查
+- 检查结果：知识库结构完整（83 个页面），无孤立页面，无缺失引用
+- 统计：Sources 32 篇 + Concepts 18 个 + Entities 15 个 + Topics 18 个
+- 发现新知识：AWS ActorSimulator、LLM-PDM 论文、arXiv:2604.02578、OpenClaw v2026.4.5
+- 建议新增：ActorSimulator 概念、REM Preview 概念、Persona Differentiation 概念
+- 建议更新：OpenClaw 实体（v2026.4.5 功能）、Anthropic 实体（订阅政策变化）
+- 来源：基于 2026-04-07 深夜自主模式主动探索
+- 状态：完成检查，建议更新知识库
+
+## [2026-04-09] lint | 深夜反思知识库检查
+- 检查结果：知识库结构基本完整（83 个页面），发现 2 个孤立页面
+- 孤立页面 1：topics/openclaw-experience-collection-2026-04-07.md（Reddit+Dev.to 8 个案例）
+- 孤立页面 2：sources/karpathy-llm-wiki.md（knowledge/ 架构的哲学底稿，竟未入 index）
+- 缺失交叉引用：OpenClaw 实体（未提及 4.5/4.7 + Dreaming）、Claude Code 实体（未提及 4/4 订阅切断事件）
+- 建议新增：dreaming-memory-consolidation 概念、round-trip-liveness 概念、openclaw-auto-dream 实体、anthropic-openclaw-subscription-cut 素材
+- 新知识来源：基于 2026-04-08 活动 + kddcup agent 卡死事件教训 + OpenClaw 官方 Dreaming 文档
+- 处理策略：孤立页面和新增建议均未在夜间自动落地，列为白天评审项，避免污染知识库
+- 状态：检查完成，建议待审核

@@ -9,29 +9,29 @@
 
 ### 文章/访谈类
 
-| 日期 | 标题 | 类型 | 摘要 | 文件 |
-|------|------|------|------|------|
-| 2026-03-28 | 尹烨谈养生与情绪 | 访谈 | 窦文涛与尹烨讨论运动、养生、焦虑、肠道健康 | [sources/yin-ye-health-emotion.md](sources/yin-ye-health-emotion.md) |
-| 2026-03-29 | 尹烨×脱不花：好好活是一门技术 | 访谈 | 得到长谈第 31 期，健康预期寿命、睡眠、肠道菌群 | [sources/yin-ye-tuo-buhua-health-tech.md](sources/yin-ye-tuo-buhua-health-tech.md) |
-| 2026-03-30 | 临在练习指南 | 视频 | DMN 默认模式网络是内耗根源，临在练习方法 | [sources/presence-practice-guide.md](sources/presence-practice-guide.md) |
-| 2026-03-30 | 辉哥：可掌控的时间与快乐 | 文章 | 快乐来自做真正喜欢的事，拥有可掌控的时间 | [sources/huige-controllable-time-happiness.md](sources/huige-controllable-time-happiness.md) |
-| 2026-03-31 | 辉哥：职业选择没有灰色地带 | 文章 | 职业选择三条路，必须做出选择并为结果负责 | [sources/huige-career-no-gray-zone.md](sources/huige-career-no-gray-zone.md) |
-| 2026-04-01 | 哈萨比斯：用第一性原理活成时代的变量 | 视频 | DeepMind 创始人用第一性原理破解智能 | [sources/hassabis-first-principles.md](sources/hassabis-first-principles.md) |
-| 2026-04-01 | 张雪：从县城修车工到营收 7 亿的车企老板 | 视频 | 春风动力创始人创业故事，长期主义典范 | [sources/zhang-xue-entrepreneur-story.md](sources/zhang-xue-entrepreneur-story.md) |
-| 2026-04-01 | 字节跳动如何击败互联网巨头 | 分析 | 组织灵活、算法驱动、快速迭代 | [sources/bytedance-beating-internet-giants.md](sources/bytedance-beating-internet-giants.md) |
-| 2026-04-03 | AI 时代 Top Builder 的核心差距 | 文章 | 差距不在起步在打磨，从 80% 到 100% 比 0 到 80% 更远 | [sources/top-builder-core-gap.md](sources/top-builder-core-gap.md) |
-| 2026-03-28 | 熊辉老师：AI 时代最稀缺的能力 | 演讲 | 时间、注意力与精力精准对齐 | [sources/xionghui-scarcest-ability-ai-era.md](sources/xionghui-scarcest-ability-ai-era.md) |
-| 2026-03-19 | Peter Steinberger 访谈视频合集 | 访谈 | OpenClaw 创始人多次访谈汇总 | [sources/peter-steinberger-interviews.md](sources/peter-steinberger-interviews.md) |
-| 2026-03-31 | Everything Claude Code (ECC) 完整指南 | 视频 | 110K+ Stars 的 Claude Code 插件集合 | [sources/everything-claude-code-guide.md](sources/everything-claude-code-guide.md) |
-| 2026-03-31 | Data Agent 挺难做的 | 实战 | 作者迭代三版 Data Agent 后放弃，转向 Skills 方案 | [sources/data-agent-hard-to-build.md](sources/data-agent-hard-to-build.md) |
-| 2026-02-25 | 冯唐成事心法 - 个人行动指南 | 文章 | 成事心态>成功心态，每天 3 个小目标 | [sources/feng-tang-chengshi-guide.md](sources/feng-tang-chengshi-guide.md) |
-| 2026-02-25 | 中年困境：钱与快乐 | 感悟 | 钱能解决基础问题但解决不了深层焦虑 | [sources/middle-age-money-happiness.md](sources/middle-age-money-happiness.md) |
-| 2026-02-27 | 不要用 Agent 更快地维持现状 | 文章 | Agent 能放大能力但不能创造方向 | [sources/dont-maintain-status-quo-faster.md](sources/dont-maintain-status-quo-faster.md) |
-| 2026-03-06 | 我把 Agent 当操作系统用了一天 | 体验 | Agent 应成为工作世界而非工具窗口 | [sources/agent-as-os.md](sources/agent-as-os.md) |
-| 2026-03-13 | OpenClaw 与一人公司浪潮 | 趋势 | AI 改写创业规则，洞察力成为核心竞争力 | [sources/openclaw-one-person-company.md](sources/openclaw-one-person-company.md) |
-| 2026-03-30 | Claude Code 六重境界解读 | 视频 | 从新手到高手使用 Claude Code 的六个层次 | [sources/claude-code-six-levels.md](sources/claude-code-six-levels.md) |
-| 2026-02-18 | 熊辉：AI 时代的职业图谱 | 演讲 | 智能四境界，无中生有是 AI 做不到的 | [sources/xionghui-career-map.md](sources/xionghui-career-map.md) |
-| 2026-02-25 | 人生解忧 - 佛学入门阅读笔记 | 读书笔记 | 贪爱导致执取，执取导致烦恼 | [sources/buddhism-intro-notes.md](sources/buddhism-intro-notes.md) |
+| 日期         | 标题                                | 类型   | 摘要                                  | 文件                                                                                           |
+| ---------- | --------------------------------- | ---- | ----------------------------------- | -------------------------------------------------------------------------------------------- |
+| 2026-03-28 | 尹烨谈养生与情绪                          | 访谈   | 窦文涛与尹烨讨论运动、养生、焦虑、肠道健康               | [sources/yin-ye-health-emotion.md](sources/yin-ye-health-emotion.md)                         |
+| 2026-03-29 | 尹烨×脱不花：好好活是一门技术                   | 访谈   | 得到长谈第 31 期，健康预期寿命、睡眠、肠道菌群           | [sources/yin-ye-tuo-buhua-health-tech.md](sources/yin-ye-tuo-buhua-health-tech.md)           |
+| 2026-03-30 | 临在练习指南                            | 视频   | DMN 默认模式网络是内耗根源，临在练习方法              | [sources/presence-practice-guide.md](sources/presence-practice-guide.md)                     |
+| 2026-03-30 | 辉哥：可掌控的时间与快乐                      | 文章   | 快乐来自做真正喜欢的事，拥有可掌控的时间                | [sources/huige-controllable-time-happiness.md](sources/huige-controllable-time-happiness.md) |
+| 2026-03-31 | 辉哥：职业选择没有灰色地带                     | 文章   | 职业选择三条路，必须做出选择并为结果负责                | [sources/huige-career-no-gray-zone.md](sources/huige-career-no-gray-zone.md)                 |
+| 2026-04-01 | 哈萨比斯：用第一性原理活成时代的变量                | 视频   | DeepMind 创始人用第一性原理破解智能              | [sources/hassabis-first-principles.md](sources/hassabis-first-principles.md)                 |
+| 2026-04-01 | 张雪：从县城修车工到营收 7 亿的车企老板             | 视频   | 春风动力创始人创业故事，长期主义典范                  | [sources/zhang-xue-entrepreneur-story.md](sources/zhang-xue-entrepreneur-story.md)           |
+| 2026-04-01 | 字节跳动如何击败互联网巨头                     | 分析   | 组织灵活、算法驱动、快速迭代                      | [sources/bytedance-beating-internet-giants.md](sources/bytedance-beating-internet-giants.md) |
+| 2026-04-03 | AI 时代 Top Builder 的核心差距           | 文章   | 差距不在起步在打磨，从 80% 到 100% 比 0 到 80% 更远 | [sources/top-builder-core-gap.md](sources/top-builder-core-gap.md)                           |
+| 2026-03-28 | 熊辉老师：AI 时代最稀缺的能力                  | 演讲   | 时间、注意力与精力精准对齐                       | [sources/xionghui-scarcest-ability-ai-era.md](sources/xionghui-scarcest-ability-ai-era.md)   |
+| 2026-03-19 | Peter Steinberger 访谈视频合集          | 访谈   | OpenClaw 创始人多次访谈汇总                  | [sources/peter-steinberger-interviews.md](sources/peter-steinberger-interviews.md)           |
+| 2026-03-31 | Everything Claude Code (ECC) 完整指南 | 视频   | 110K+ Stars 的 Claude Code 插件集合      | [sources/everything-claude-code-guide.md](sources/everything-claude-code-guide.md)           |
+| 2026-03-31 | Data Agent 挺难做的                   | 实战   | 作者迭代三版 Data Agent 后放弃，转向 Skills 方案  | [sources/data-agent-hard-to-build.md](sources/data-agent-hard-to-build.md)                   |
+| 2026-02-25 | 冯唐成事心法 - 个人行动指南                   | 文章   | 成事心态>成功心态，每天 3 个小目标                 | [sources/feng-tang-chengshi-guide.md](sources/feng-tang-chengshi-guide.md)                   |
+| 2026-02-25 | 中年困境：钱与快乐                         | 感悟   | 钱能解决基础问题但解决不了深层焦虑                   | [sources/middle-age-money-happiness.md](sources/middle-age-money-happiness.md)               |
+| 2026-02-27 | 不要用 Agent 更快地维持现状                 | 文章   | Agent 能放大能力但不能创造方向                  | [sources/dont-maintain-status-quo-faster.md](sources/dont-maintain-status-quo-faster.md)     |
+| 2026-03-06 | 我把 Agent 当操作系统用了一天                | 体验   | Agent 应成为工作世界而非工具窗口                 | [sources/agent-as-os.md](sources/agent-as-os.md)                                             |
+| 2026-03-13 | OpenClaw 与一人公司浪潮                  | 趋势   | AI 改写创业规则，洞察力成为核心竞争力                | [sources/openclaw-one-person-company.md](sources/openclaw-one-person-company.md)             |
+| 2026-03-30 | Claude Code 六重境界解读                | 视频   | 从新手到高手使用 Claude Code 的六个层次          | [sources/claude-code-six-levels.md](sources/claude-code-six-levels.md)                       |
+| 2026-02-18 | 熊辉：AI 时代的职业图谱                     | 演讲   | 智能四境界，无中生有是 AI 做不到的                 | [sources/xionghui-career-map.md](sources/xionghui-career-map.md)                             |
+| 2026-02-25 | 人生解忧 - 佛学入门阅读笔记                   | 读书笔记 | 贪爱导致执取，执取导致烦恼                       | [sources/buddhism-intro-notes.md](sources/buddhism-intro-notes.md)                           |
 
 ### 技术类
 
