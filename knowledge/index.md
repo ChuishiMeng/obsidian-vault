@@ -1,6 +1,6 @@
 # 知识库索引 - Knowledge Index
 
-> 最后更新：2026-04-05  
+> 最后更新：2026-04-10  
 > 说明：本索引由 AI Agent 自动维护，人类不需要手动编辑
 
 ---
@@ -32,6 +32,10 @@
 | 2026-03-30 | Claude Code 六重境界解读                | 视频   | 从新手到高手使用 Claude Code 的六个层次          | [sources/claude-code-six-levels.md](sources/claude-code-six-levels.md)                       |
 | 2026-02-18 | 熊辉：AI 时代的职业图谱                     | 演讲   | 智能四境界，无中生有是 AI 做不到的                 | [sources/xionghui-career-map.md](sources/xionghui-career-map.md)                             |
 | 2026-02-25 | 人生解忧 - 佛学入门阅读笔记                   | 读书笔记 | 贪爱导致执取，执取导致烦恼                       | [sources/buddhism-intro-notes.md](sources/buddhism-intro-notes.md)                           |
+| 2026-04-05 | 不要在一个牛逼的时代活得如此憋屈                 | 文章     | AI时代如何找到自己的位置，切蛋糕vs做大蛋糕       | [sources/huige-awesome-era-not-frustrated.md](sources/huige-awesome-era-not-frustrated.md) |
+| 2026-04-07 | Tmux AI 工作流实战                           | 视频     | 同时开多个AI写代码，三种API实现自动化           | [sources/tmux-ai-workflow.md](sources/tmux-ai-workflow.md)                               |
+| 2026-04-10 | 还有什么能比热爱更重要                       | 文章     | 辉哥谈热爱、领导力、识人标准                   | [sources/huige-passion-more-important.md](sources/huige-passion-more-important.md)         |
+| 2026-04-10 | 虚拟用户技术产品化策略分析                     | 产品分析 | 京东虚拟消费者商业化路径，三步走路线图           | [sources/virtual-user-product-strategy.md](sources/virtual-user-product-strategy.md)     |
 
 ### 技术类
 
@@ -87,6 +91,8 @@
 | **城市计算** | 时空大数据挖掘解决城市问题 | [concepts/urban-computing.md](concepts/urban-computing.md) |
 | **跨域数据融合** | 多源异构数据联合分析 | [concepts/cross-domain-data-fusion.md](concepts/cross-domain-data-fusion.md) |
 | **意图消歧** | 三层歧义框架解决意图理解 | [concepts/intent-disambiguation.md](concepts/intent-disambiguation.md) |
+| **Meta REA** | 企业级自主Agent，Hibernate-and-Wake机制 | [concepts/meta-rea-agent.md](concepts/meta-rea-agent.md) |
+| **主体性理论** | 把参照系从别人换回自己 | [concepts/subjectivity-theory.md](concepts/subjectivity-theory.md) |
 
 ---
 
@@ -140,11 +146,11 @@
 
 | 类别 | 数量 |
 |------|------|
-| 素材 Sources | 32 篇（文章/访谈/技术/视频）+ 5 个研究方向 |
-| 概念 Concepts | 18 个 |
+| 素材 Sources | 36 篇（文章/访谈/技术/视频/产品分析）+ 5 个研究方向 |
+| 概念 Concepts | 20 个 |
 | 实体 Entities | 15 个 |
 | 主题 Topics | 17 个 |
-| 总 Wiki 页面 | 82 |
+| 总 Wiki 页面 | 88 |
 
 ---
 

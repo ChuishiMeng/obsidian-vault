@@ -90,3 +90,23 @@
 - 新知识来源：基于 2026-04-08 活动 + kddcup agent 卡死事件教训 + OpenClaw 官方 Dreaming 文档
 - 处理策略：孤立页面和新增建议均未在夜间自动落地，列为白天评审项，避免污染知识库
 - 状态：检查完成，建议待审核
+
+## [2026-04-10] ingest-batch | 4月6-10日新增内容编译
+- 编译来源：~/agentKB/Obsidian/AI-Workspace/（2026-04-06 至 2026-04-10）
+- 排除：每日信息源汇报、daily-feeds、daily-crawl（时效性内容）
+- 新增 Sources：
+  - virtual-user-product-strategy.md（虚拟用户产品化策略分析）
+  - huige-passion-more-important.md（还有什么能比热爱更重要）
+  - huige-awesome-era-not-frustrated.md（不要在一个牛逼的时代活得如此憋屈）
+  - tmux-ai-workflow.md（Tmux AI工作流实战）
+- 新增 Concepts：
+  - meta-rea-agent.md（Meta REA 企业级自主Agent）
+  - subjectivity-theory.md（主体性理论）
+- 关键发现（来自探索记录）：
+  - Meta REA 企业级自主Agent突破（Hibernate-and-Wake机制）
+  - Claude Code Channels发布（OpenClaw竞争者）
+  - GPT-5.4系列发布（多模型架构）
+  - OpenClaw v2026.4.5更新（QQ原生接入）
+- 总 Wiki 页面：82 → 88 个
+- 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
+- 子 Agent：管家小新派发，任务：知识库编译-补缺4月6-10日
