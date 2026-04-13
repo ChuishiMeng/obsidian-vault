@@ -1,70 +1,68 @@
 ---
-title: Everything Claude Code (ECC) 完整指南
-date: 2026-03-31
-tags: [Claude Code, ECC, 开发工具, AI编程, 工程化框架]
-source: https://b23.tv/vNva3Hi
-updated: 2026-04-10
+title: "Everything Claude Code (ECC) 完整指南"
+date: 2026-04-11
+tags: [Claude Code, ECC, AI编程, 插件, Agent]
+source: "B站视频 + GitHub"
+updated: "2026-04-11 深度解读补充"
 ---
 
 # Everything Claude Code (ECC) 完整指南
 
-> 110K+ Stars 项目，黑客松霍圣者历时10个月打磨
-> GitHub: 110K+ star
+> 项目: https://github.com/EverythingClaudeCode (110K+ Stars)
+> 作者: 黑客松霍圣者，历时10个月打磨
+> 官网：https://ecc.tools/
 
-## ECC 是什么
+## 什么是 ECC？
 
-装在 `~/.claude` 目录下的Claude Code插件集合 —— Claude Code 的**工程化框架**。
-
-比喻：给"聪明的实习生"配一套完整的公司制度、操作手册、审查流程和监控系统。
+装在 `~/.claude` 目录下的 Claude Code 插件集合：
+- 原版 Claude Code = 聪明但无约束的实习生
+- ECC = 给实习生配了公司制度、操作手册、审查流程、监控系统
 
 ## 六大核心模块
 
-| 模块 | 数量 | 作用 |
+| 模块 | 说明 | 数量 |
 |------|------|------|
-| **Commands** | 60+ | 斜杠命令，覆盖开发全流程 |
-| **Agent Strategy** | 28个 | 专用AI子代理（规划、安全审查、修构建错误等） |
-| **Hooks** | 8种 | 事件驱动自动化（格式化、类型检查等） |
-| **Skills** | 125个 | 领域知识库（TypeScript/React/Python/Go等） |
-| **Rules** | 全局 | 编码规范，所有代理必须执行 |
-| **MCP** | - | 外部服务集成（GitHub、Supabase等） |
-
-**协作逻辑**: Rules 划红线 → Commands 触发流程 → Agents 干活 → Skills 提供知识 → Hooks 全程把关
+| **Commands** | `/` 触发的命令 | 60+ |
+| **Agent Strategy** | 专用 AI 子代理 | 28→36个 |
+| **Hooks** | 事件驱动的自动化脚本 | 8种事件类型 |
+| **Skills** | 领域知识库 | ~125→150个 |
+| **Rules** | 全局强制执行的编码规范 | 10种语言 |
+| **MCP** | 外部服务集成 | - |
 
 ## 核心 Commands
 
-| 命令 | 作用 |
+| 命令 | 价值 |
 |------|------|
-| `/plan` | 最被忽略但最有价值 —— 写代码前让AI帮你把坑找出来 |
-| `/tdd` | 测试驱动开发，先写测试 → 再写实现 |
-| `/code-review` | 机场安检式审查，挑出安全/质量问题 |
-| `/verify` | 中级验收标准，必须通过构建+测试+安全扫描 |
+| `/plan` ⭐ | 动代码前让 AI 把坑找出来 |
+| `/tdd` | 测试驱动开发，先写测试再写实现 |
+| `/code-review` | 像机场安检，安全+质量全面审查 |
+| `/verify` | 对标中级验收标准 |
+| `/security-scan` | 102条安全规则 + 1282个安全测试 |
 
-## 关键 Hooks
+## V2 持续学习系统（Instinct）
 
-| Hook | 机制 |
-|------|------|
-| `PostToolUse` | 编辑TS文件 → 自动Prettier+TSC类型检查；编辑PY文件 → 自动Black+MyPY |
-| `PreToolUse` | 写文件前检查，防止AI偷偷修改lint配置规避检查 |
+1. `/learn` → 分析当前会话，提取可复用模式
+2. `/instinct-status` → 查看学到的内容（置信度分数）
+3. `/evolve` → 合并升级为正式 skill 或 command
 
-## V2 持续学习系统
+## 深度解读亮点（2026-04-08 补充）
 
-- `/learn` - 从会话中提取可复用模式
-- `/instinct-status` - 查看学习状态
-- `/evolve` - 合并升级为正式skill/command
-- `/skill-create` - 分析Git提交历史，自动提取编码模式
+- **pass@k / pass^k 验证指标**：k=3 时 pass@k=91%，pass^k=34%
+- **AgentShield 安全集成**：102条规则 + 1282个安全测试
+- **沙盒化 subagent**：独立工具权限，代码审查 agent 只能读不能写
+- **评分**：鲁工 9/10
 
-## 解决的痛点
+## 安装
 
-| 痛点 | ECC 解决方案 |
-|------|-------------|
-| 代码没测试 | `/tdd` 强制测试驱动 |
-| 忘做安全审查 | Security Reviewer Agent + `/code-review` |
-| AI不了解项目规范 | Skills自动加载 + Rules强制执行 |
-| AI偷偷改配置规避检查 | `PreToolUse` Hook阻止 |
+```bash
+git clone https://github.com/EverythingClaudeCode/ECC
+cp ECC/skills ~/.claude/skills && cp ECC/commands ~/.claude/commands
+cp ECC/hooks ~/.claude/hooks && cp ECC/rules ~/.claude/rules && cp ECC/agents ~/.claude/agents
+```
 
 ## 关联
 
 - [[entities/claude-code.md|Claude Code]]
-- [[concepts/ai-coding.md|AI编程]]
-- [[topics/openclaw-practices.md|OpenClaw实战经验]]
-- [[concepts/mcp.md|MCP协议]]
+- [[sources/ecc-deep-dive.md|ECC 深度解读]]
+- [[concepts/ai-coding.md|AI 编程]]
+- [[concepts/vibe-coding.md|Vibe Coding]]

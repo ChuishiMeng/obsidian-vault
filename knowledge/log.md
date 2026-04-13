@@ -138,3 +138,38 @@
 - Vibe Coding趋势：Cursor+Trae领先，DataWhale推出中文课程，安全审计仍是关键
 - 关键洞察：Agent系统空转问题、知识库沉睡资产、反思-执行鸿沟
 - 来源：2026-04-12 深夜自主模式反思
+
+## [2026-04-13] lint | 深夜反思知识库检查
+- 检查时间：2026-04-13 02:00 AM
+- 统计：Sources 36 + Topics 18 + Concepts 20 + Entities 15 = 89 页面
+- 结构完整性：✅ 正常
+- 新发现：Amazon Kiro IDE（AI-first IDE，Spec Mode + Vibe Mode）、Vibe Coding进入主流
+- 孤立页面：subjectivity-theory, meta-rea-agent 缺少双向链接
+- 交叉引用缺口：vibe-coding↔ai-coding, meta-rea-agent↔ai-agent-trends（与昨日相同，仍未补全）
+- 待创建：concepts/kiro-ide.md, entities/hermes-agent.md
+- 关键洞察：Vibe Coding从极客文化进入主流（Harvard/Google/Amazon同时介入）、Agent配置需要中心化治理
+- 来源：2026-04-13 深夜自主模式反思
+
+## [2026-04-13] ingest-batch | 4月11-12日新增内容编译
+- 编译来源：~/agentKB/Obsidian/AI-Workspace/（2026-04-11 至 2026-04-12）
+- 新增 Sources（技术/产品/科研）：
+  - hermes-agent-vs-openclaw.md（Hermes vs OpenClaw对比，ACP协议，双Agent并排）
+  - elseland-ai-open-world.md（北大博士+17Agent，49天AI开放世界）
+  - ecc-deep-dive.md（ECC深度解读，36个subagent，pass@k指标，AgentShield）
+  - mempalace-ai-memory.md（LongMemEval满分，记忆宫殿架构，AAAK压缩）
+  - quickbi-cli.md（134项API转CLI，AI Agent可直接操作BI）
+  - sbti-personality-algorithm.md（15维人格建模，对虚拟用户Persona有参考）
+- 更新 Sources：
+  - everything-claude-code-guide.md（补充V2学习系统、深度解读亮点）
+- 新增 Topics：投资理财（新建目录 topics/investment/）：
+  - index-fund-guide-overview.md（指数基金指南整体解读）
+  - investment-methodology.md（估值方法、定投策略、心理建设）
+  - portfolio-status.md（孟老师投资现状与计划总结）
+  - weekly-dca-plan.md（定投计划与记录）
+  - valuation-2026-04-10.md（螺丝钉估值记录）
+  - investment-plan-family.md（给媳妇看版投资计划）
+  - weekend-learning-plan.md（周末投资学习计划）
+- 新增实体：Hermes Agent（隐含在对比文中）
+- 总 Wiki 页面：89 → 98 个（+9页面）
+- 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
+- 来源：管家小新派发子Agent执行知识库编译任务

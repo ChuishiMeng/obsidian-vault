@@ -36,6 +36,12 @@
 | 2026-04-07 | Tmux AI 工作流实战                           | 视频     | 同时开多个AI写代码，三种API实现自动化           | [sources/tmux-ai-workflow.md](sources/tmux-ai-workflow.md)                               |
 | 2026-04-10 | 还有什么能比热爱更重要                       | 文章     | 辉哥谈热爱、领导力、识人标准                   | [sources/huige-passion-more-important.md](sources/huige-passion-more-important.md)         |
 | 2026-04-10 | 虚拟用户技术产品化策略分析                     | 产品分析 | 京东虚拟消费者商业化路径，三步走路线图           | [sources/virtual-user-product-strategy.md](sources/virtual-user-product-strategy.md)     |
+| 2026-04-11 | Hermes Agent vs OpenClaw 对比               | 分析   | 双Agent并排使用效果最佳，ACP协议通信         | [sources/hermes-agent-vs-openclaw.md](sources/hermes-agent-vs-openclaw.md)           |
+| 2026-04-11 | Elseland AI 开放世界                        | 案例   | 北大博士+17个Agent，49天造出AI开放世界        | [sources/elseland-ai-open-world.md](sources/elseland-ai-open-world.md)               |
+| 2026-04-08 | ECC 深度解读                                | 技术   | 36个subagent，pass@k指标，AgentShield安全     | [sources/ecc-deep-dive.md](sources/ecc-deep-dive.md)                                 |
+| 2026-04-08 | MemPalace AI 记忆系统                       | 技术   | LongMemEval满分，记忆宫殿架构，社区扒皮争议    | [sources/mempalace-ai-memory.md](sources/mempalace-ai-memory.md)                     |
+| 2026-04-07 | Quick BI CLI 开放                           | 产品   | 134项API转CLI，AI Agent可直接操作BI           | [sources/quickbi-cli.md](sources/quickbi-cli.md)                                     |
+| 2026-04-11 | SBTI 人格测试算法分析                        | 科研   | 15维人格建模，向量距离匹配，对虚拟用户有参考   | [sources/sbti-personality-algorithm.md](sources/sbti-personality-algorithm.md)       |
 
 ### 技术类
 
@@ -139,6 +145,7 @@
 | **城市计算研究** | 郑宇团队时空数据挖掘方法论（29 篇） | [topics/urban-computing.md](topics/urban-computing.md) |
 | **虚拟用户研究** | 电商 Persona 构建与问卷模拟 | [topics/virtual-user-research.md](topics/virtual-user-research.md) |
 | **本体 Schema 研究** | 异构图谱联合召回框架 | [topics/ontology-schema.md](topics/ontology-schema.md) |
+| **投资理财** | 指数基金定投策略、资产配置、估值方法、持仓管理 | [topics/investment/index.md](topics/investment/index.md) |
 
 ---
 
@@ -146,11 +153,11 @@
 
 | 类别 | 数量 |
 |------|------|
-| 素材 Sources | 36 篇（文章/访谈/技术/视频/产品分析）+ 5 个研究方向 |
+| 素材 Sources | 43 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
 | 概念 Concepts | 20 个 |
 | 实体 Entities | 15 个 |
-| 主题 Topics | 17 个 |
-| 总 Wiki 页面 | 88 |
+| 主题 Topics | 18 个（含投资理财） |
+| 总 Wiki 页面 | 98 |
 
 ---
 
@@ -164,3 +171,4 @@
 - [[topics/da-casebase.md|DA CaseBase 研究]]
 - [[topics/urban-computing.md|城市计算研究]]
 - [[topics/virtual-user-research.md|虚拟用户研究]]
+- [[topics/investment/index.md|投资理财]]
