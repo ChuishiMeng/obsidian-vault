@@ -1,6 +1,6 @@
 # 知识库索引 - Knowledge Index
 
-> 最后更新：2026-04-11 03:00  
+> 最后更新：2026-04-14 03:00  
 > 说明：本索引由 AI Agent 自动维护，人类不需要手动编辑
 
 ---
@@ -42,6 +42,9 @@
 | 2026-04-08 | MemPalace AI 记忆系统                       | 技术   | LongMemEval满分，记忆宫殿架构，社区扒皮争议    | [sources/mempalace-ai-memory.md](sources/mempalace-ai-memory.md)                     |
 | 2026-04-07 | Quick BI CLI 开放                           | 产品   | 134项API转CLI，AI Agent可直接操作BI           | [sources/quickbi-cli.md](sources/quickbi-cli.md)                                     |
 | 2026-04-11 | SBTI 人格测试算法分析                        | 科研   | 15维人格建模，向量距离匹配，对虚拟用户有参考   | [sources/sbti-personality-algorithm.md](sources/sbti-personality-algorithm.md)       |
+| 2026-04-05 | Karpathy LLM Wiki 解读                        | 技术解读 | LLM 训练全流程总结，从数据到部署               | [sources/karpathy-llm-wiki.md](sources/karpathy-llm-wiki.md)                           |
+| 2026-04-12 | 趁着孩子还小多陪陪孩子                         | 文章     | 高质量陪伴比物质更重要，情感发展关键期           | [sources/spend-time-with-children.md](sources/spend-time-with-children.md)             |
+| 2026-04-13 | P36: LLM 对话式用户模拟综述                  | 文献综述 | EACL 2026，四维分类体系，KDD必引文献         | [sources/p36-llm-user-simulation-survey.md](sources/p36-llm-user-simulation-survey.md) |
 
 ### 技术类
 
@@ -70,7 +73,7 @@
 | 2026-04-05 | DA CaseBase | 16 篇 | 语义缓存 + 案例推理提升 Data Agent 问数效率 | [topics/da-casebase.md](topics/da-casebase.md) |
 | 2026-04-05 | DA 消歧 | 4 篇核心 | 三层歧义框架解决意图理解问题 | [topics/da-disambiguation.md](topics/da-disambiguation.md) |
 | 2026-04-05 | 城市计算 | 29 篇 | 郑宇老师团队时空数据挖掘方法论 | [topics/urban-computing.md](topics/urban-computing.md) |
-| 2026-04-05 | 虚拟用户 | 15 篇核心 | 电商 Persona 构建与问卷模拟 | [topics/virtual-user-research.md](topics/virtual-user-research.md) |
+| 2026-04-05 | 虚拟用户 | 16 篇核心 | 电商 Persona 构建与问卷模拟 | [topics/virtual-user-research.md](topics/virtual-user-research.md) |
 | 2026-04-05 | Ontology-Schema | 13 篇 | 异构图谱驱动的联合召回框架 | [topics/ontology-schema.md](topics/ontology-schema.md) |
 
 ---
@@ -99,6 +102,8 @@
 | **意图消歧** | 三层歧义框架解决意图理解 | [concepts/intent-disambiguation.md](concepts/intent-disambiguation.md) |
 | **Meta REA** | 企业级自主Agent，Hibernate-and-Wake机制 | [concepts/meta-rea-agent.md](concepts/meta-rea-agent.md) |
 | **主体性理论** | 把参照系从别人换回自己 | [concepts/subjectivity-theory.md](concepts/subjectivity-theory.md) |
+| **Kiro IDE** | Amazon AI-first IDE，Spec Mode + Vibe Mode 双模式 | [concepts/kiro-ide.md](concepts/kiro-ide.md) |
+| **LLM 用户模拟** | 用大语言模型模拟真实用户行为，四维分类体系 | [concepts/llm-user-simulation.md](concepts/llm-user-simulation.md) |
 
 ---
 
@@ -121,6 +126,7 @@
 | **城市计算** | 郑宇老师团队时空数据挖掘研究领域 | [entities/urban-computing.md](entities/urban-computing.md) |
 | **虚拟用户** | 电商 Persona 构建与问卷模拟研究领域 | [entities/virtual-user.md](entities/virtual-user.md) |
 | **Ontology-Schema** | 异构图谱联合召回科研项目 | [entities/ontology-schema.md](entities/ontology-schema.md) |
+| **Hermes Agent** | AI Agent 框架，与 OpenClaw 竞争互补 | [entities/hermes-agent.md](entities/hermes-agent.md) |
 
 ---
 
@@ -153,11 +159,11 @@
 
 | 类别 | 数量 |
 |------|------|
-| 素材 Sources | 43 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
-| 概念 Concepts | 20 个 |
-| 实体 Entities | 15 个 |
+| 素材 Sources | 44 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
+| 概念 Concepts | 22 个 |
+| 实体 Entities | 16 个 |
 | 主题 Topics | 18 个（含投资理财） |
-| 总 Wiki 页面 | 98 |
+| 总 Wiki 页面 | 109 |
 
 ---
 

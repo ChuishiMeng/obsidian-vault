@@ -3,7 +3,7 @@ title: "Everything Claude Code (ECC) 完整指南"
 date: 2026-04-11
 tags: [Claude Code, ECC, AI编程, 插件, Agent]
 source: "B站视频 + GitHub"
-updated: "2026-04-11 深度解读补充"
+updated: "2026-04-12 完整指南更新"
 ---
 
 # Everything Claude Code (ECC) 完整指南
@@ -59,6 +59,42 @@ git clone https://github.com/EverythingClaudeCode/ECC
 cp ECC/skills ~/.claude/skills && cp ECC/commands ~/.claude/commands
 cp ECC/hooks ~/.claude/hooks && cp ECC/rules ~/.claude/rules && cp ECC/agents ~/.claude/agents
 ```
+
+## 28 个专用代理（2026-04-12 补充）
+
+| 代理 | 职责 |
+|------|------|
+| Architect | 架构设计 |
+| Security Reviewer | 安全审查 |
+| Builder Resolver | 修构建错误 |
+| Test Runner | 运行测试 |
+| Code Reviewer | 代码审查 |
+
+调用方式：直接指定或通过 `/code-review` 等命令触发。
+
+## Hooks 自动化
+
+8种事件类型的事件驱动自动化脚本，在后台默默工作把关。
+
+## Skills 自动加载
+
+~125-150个领域知识库，自动加载项目规范和上下文。
+
+## 核心痛点解决
+
+| 痛点 | ECC 解决方案 |
+|------|-------------|
+| 生成的代码没有测试 | `/tdd` 强制测试先行 |
+| 经常忘了做安全审查 | Security Reviewer 代理 + Hooks |
+| AI 不了解项目规范 | Skills 自动加载 + Rules 强制执行 |
+| 方向走错浪费时间 | `/plan` 提前规划 |
+
+## 与 OpenClaw 的对比
+
+- Skills ≈ 领域知识库（两者相似）
+- Hooks ≈ OpenClaw 的 cron/heartbeat
+- Agents ≈ OpenClaw 的 subagent
+- ECC 侧重 Claude Code 工程化约束，OpenClaw 侧重多平台消息桥接和自动化运维
 
 ## 关联
 

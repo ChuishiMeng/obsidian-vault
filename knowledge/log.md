@@ -173,3 +173,27 @@
 - 总 Wiki 页面：89 → 98 个（+9页面）
 - 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
 - 来源：管家小新派发子Agent执行知识库编译任务
+
+## [2026-04-14] lint | 深夜知识库维护
+- 创建 concepts/kiro-ide.md（Amazon Kiro IDE 概念页）
+- 创建 entities/hermes-agent.md（Hermes Agent 实体页）
+- 修复孤立页面 sources/karpathy-llm-wiki.md（已加入 index）
+- 更新统计数据：44 sources, 21 concepts, 16 entities, 101 总页面
+- 待补全：vibe-coding↔ai-coding 双向链接（下次）
+
+## [2026-04-14 03:00] ingest-batch | 4月12-13日新增内容编译
+- 编译来源：~/agentKB/Obsidian/AI-Workspace/（2026-04-12 至 2026-04-13）
+- 新增 Sources：
+  - spend-time-with-children.md（亲子陪伴文章，情感发展关键期，温尼科特理论）
+  - p36-llm-user-simulation-survey.md（EACL 2026 综述，四维分类体系，KDD必引文献）
+- 更新 Sources：
+  - everything-claude-code-guide.md（补充28代理表、Hooks自动化、Skills自动加载、痛点解决表、OpenClaw对比）
+- 新增 Concepts：
+  - llm-user-simulation.md（LLM对话式用户模拟概念页，四维分类+核心挑战）
+- 新增 Investment 记录：
+  - topics/investment/dca-record-2026-04-12.md（本周定投建议：4.0星低估，红利低波+港股通低波各500元）
+- 跳过：
+  - 2026-04-13-每日信息源汇报.md（无实质内容，三源均无更新）
+- 更新虚拟用户研究论文计数：15→16篇（含P36综述）
+- 总 Wiki 页面：101 → 109（+8页面，含 lint 补充 2 页 + 本次编译 4 页 + 既往修正 2 页）
+- 来源：管家小新 cron 定时编译
