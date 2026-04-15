@@ -1,6 +1,6 @@
 # 知识库索引 - Knowledge Index
 
-> 最后更新：2026-04-14 03:00  
+> 最后更新：2026-04-15 03:00  
 > 说明：本索引由 AI Agent 自动维护，人类不需要手动编辑
 
 ---
@@ -45,6 +45,11 @@
 | 2026-04-05 | Karpathy LLM Wiki 解读                        | 技术解读 | LLM 训练全流程总结，从数据到部署               | [sources/karpathy-llm-wiki.md](sources/karpathy-llm-wiki.md)                           |
 | 2026-04-12 | 趁着孩子还小多陪陪孩子                         | 文章     | 高质量陪伴比物质更重要，情感发展关键期           | [sources/spend-time-with-children.md](sources/spend-time-with-children.md)             |
 | 2026-04-13 | P36: LLM 对话式用户模拟综述                  | 文献综述 | EACL 2026，四维分类体系，KDD必引文献         | [sources/p36-llm-user-simulation-survey.md](sources/p36-llm-user-simulation-survey.md) |
+| 2026-04-14 | 不要担心2小时和8公里以外的事情             | 文章     | 活在当下，减少内耗与焦虑                     | [sources/worry-about-distance.md](sources/worry-about-distance.md) |
+| 2026-04-14 | 具象化自己的理想生活                         | 文章     | 把抽象目标拆解成具体场景                     | [sources/ideal-life-concretization.md](sources/ideal-life-concretization.md) |
+| 2026-04-14 | P38: SPIRIT 人口级 Persona 模拟             | 科研     | Painter+Reasoner 两阶段框架                  | [sources/p38-spirit-persona.md](sources/p38-spirit-persona.md) |
+| 2026-04-14 | P39: Persona Prompting 可靠性              | 科研     | 多属性 Persona 效果不一致警示                 | [sources/p39-persona-reliability.md](sources/p39-persona-reliability.md) |
+| 2026-04-14 | P23: ATHENA Ontology-driven NL→SQL        | 科研     | VLDB 2016 先驱系统，OQL→SQL 两阶段           | [sources/p23-athena.md](sources/p23-athena.md) |
 
 ### 技术类
 
@@ -66,6 +71,8 @@
 | 2026-03-31 | ECC 视频转录 | 转录 | 原始视频转录 | [sources/ecc-video-transcript.md](sources/ecc-video-transcript.md) |
 | 2026-02-19 | OpenClaw 精讲系列（E0-E16） | 系列 | 17 集系统讲解 OpenClaw 核心架构与实战 | [sources/openclaw-lecture-series.md](sources/openclaw-lecture-series.md) |
 
+| 2026-04-14 | KnowU-Bench：LLM User Simulator 评估基准 | 科研 | 浙大，192 个标准化评估任务，virtual-users 项目直接相关 | [sources/knowu-bench.md](sources/knowu-bench.md) |
+
 ### 研究论文类（Research）
 
 | 日期 | 研究方向 | 论文数 | 概述 | 主题文件 |
@@ -73,8 +80,8 @@
 | 2026-04-05 | DA CaseBase | 16 篇 | 语义缓存 + 案例推理提升 Data Agent 问数效率 | [topics/da-casebase.md](topics/da-casebase.md) |
 | 2026-04-05 | DA 消歧 | 4 篇核心 | 三层歧义框架解决意图理解问题 | [topics/da-disambiguation.md](topics/da-disambiguation.md) |
 | 2026-04-05 | 城市计算 | 29 篇 | 郑宇老师团队时空数据挖掘方法论 | [topics/urban-computing.md](topics/urban-computing.md) |
-| 2026-04-05 | 虚拟用户 | 16 篇核心 | 电商 Persona 构建与问卷模拟 | [topics/virtual-user-research.md](topics/virtual-user-research.md) |
-| 2026-04-05 | Ontology-Schema | 13 篇 | 异构图谱驱动的联合召回框架 | [topics/ontology-schema.md](topics/ontology-schema.md) |
+| 2026-04-05 | 虚拟用户 | 19 篇核心 | 电商 Persona 构建与问卷模拟 | [topics/virtual-user-research.md](topics/virtual-user-research.md) |
+| 2026-04-05 | Ontology-Schema | 15 篇 | 异构图谱驱动的联合召回框架 | [topics/ontology-schema.md](topics/ontology-schema.md) |
 
 ---
 
@@ -104,6 +111,7 @@
 | **主体性理论** | 把参照系从别人换回自己 | [concepts/subjectivity-theory.md](concepts/subjectivity-theory.md) |
 | **Kiro IDE** | Amazon AI-first IDE，Spec Mode + Vibe Mode 双模式 | [concepts/kiro-ide.md](concepts/kiro-ide.md) |
 | **LLM 用户模拟** | 用大语言模型模拟真实用户行为，四维分类体系 | [concepts/llm-user-simulation.md](concepts/llm-user-simulation.md) |
+| **KnowU-Bench** | 浙大 LLM user simulator 标准化评估基准，192 任务 | [sources/knowu-bench.md](sources/knowu-bench.md) |
 
 ---
 
@@ -159,11 +167,11 @@
 
 | 类别 | 数量 |
 |------|------|
-| 素材 Sources | 44 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
+| 素材 Sources | 50 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
 | 概念 Concepts | 22 个 |
 | 实体 Entities | 16 个 |
 | 主题 Topics | 18 个（含投资理财） |
-| 总 Wiki 页面 | 109 |
+| 总 Wiki 页面 | 117 |
 
 ---
 

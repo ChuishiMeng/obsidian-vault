@@ -30,6 +30,9 @@ VirtualUser 项目研究如何基于电商行为数据构建虚拟用户（Perso
 | P30 | Mixture of Personas | arXiv | 2024 | 多 Persona 权重组合 |
 | P32 | PersonaTwin | arXiv | 2025 | 多层 Prompt 构建 Persona |
 | P35 | Virtual Personas | arXiv | 2024 | 自动 Persona 生成方法 |
+| P37 | KnowU-Bench | arXiv | 2026 | 移动 Agent 评估基准，7 维 Profile Schema |
+| P38 | SPIRIT | arXiv | 2026 | 人口级 Persona 模拟，Painter+Reasoner 两阶段 |
+| P39 | Persona Reliability | WWW | 2026 | Persona Prompting 效果不一致警示 |
 
 ## 核心方法论
 

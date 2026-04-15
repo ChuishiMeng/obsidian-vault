@@ -197,3 +197,31 @@
 - 更新虚拟用户研究论文计数：15→16篇（含P36综述）
 - 总 Wiki 页面：101 → 109（+8页面，含 lint 补充 2 页 + 本次编译 4 页 + 既往修正 2 页）
 - 来源：管家小新 cron 定时编译
+
+## [2026-04-15 03:00] ingest-batch | 4月14日新增内容编译
+- 编译来源：~/agentKB/Obsidian/AI-Workspace/（2026-04-14）
+- 新增 Sources（文章类）：
+  - worry-about-distance.md（不要担心2小时和8公里以外的事情，心理健康/成长）
+  - ideal-life-concretization.md（具象化自己的理想生活，目标具象化方法）
+- 新增 Sources（科研类）：
+  - p38-spirit-persona.md（SPIRIT 人口级 Persona 模拟框架）
+  - p39-persona-reliability.md（Persona Prompting 可靠性评估警示）
+  - p23-athena.md（ATHENA Ontology-driven NL→SQL 先驱系统，VLDB 2016）
+- 新增 Investment 记录：
+  - valuation-2026-04-14.md（螺丝钉估值 3.9 星）
+- 更新主题页：
+  - topics/virtual-user-research.md（论文 +3：P37/P38/P39）
+  - topics/ontology-schema.md（论文 +2：P16/P23）
+- 更新统计数据：Sources 50 篇, 总 Wiki 页面 117
+- 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
+- 来源：管家小新 cron 定时编译
+- 修复孤立页面：sources/knowu-bench.md 已补入 index.md
+- 补全双向链接：
+  - ai-coding.md ↔ vibe-coding.md（已补全 ai-coding 侧）
+  - meta-rea-agent.md ↔ ai-agent-trends.md（已补全 ai-agent-trends 侧）
+  - subjectivity-theory.md 已有关联（无需修改）
+- 孤立页面统计：
+  - topics/openclaw-experience-collection-2026-04-07.md — 未索引（历史归档，无需修复）
+  - topics/investment/ 子页面 7 个 — 通过 topics/investment/index.md 管理，无需在主索引重复
+- 更新统计数据：44 sources（含 knowu-bench）, 22 concepts, 16 entities, 110 总页面
+- 双向链接：所有待补全项已完成 ✅

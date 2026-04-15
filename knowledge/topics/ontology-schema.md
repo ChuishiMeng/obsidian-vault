@@ -24,6 +24,8 @@ Ontology-Schema 项目研究如何构建异构图谱驱动的 Schema + 业务知
 | P07 | DataFactory | arXiv | 2026 | Database + KG 双团队协作 |
 | P08 | RAT-SQL | ACL | 2020 | 关系感知 Schema 编码（开创性工作） |
 | P09 | RESDSQL | AAAI | 2023 | 解耦 Schema Linking 和 SQL 生成 |
+| P16 | Sequeda KG Benchmark | GRADES | 2023 | KG→SPARQL→SQL，GPT-4 准确率 3x |
+| P23 | ATHENA | VLDB | 2016 | Ontology-driven NL→SQL 先驱系统 |
 
 ## 核心方法论
 

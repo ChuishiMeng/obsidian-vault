@@ -41,6 +41,11 @@ tags: [概念, AI, 编程, 开发工具]
 - [[sources/claude-code-six-levels.md|Claude Code六重境界解读]]
 - [[sources/dont-maintain-status-quo-faster.md|不要用Agent更快地维持现状]]
 
+## 关联概念
+
+- [[concepts/vibe-coding.md|Vibe Coding]] — AI 辅助编程方法论，强调快速原型开发
+- [[concepts/kiro-ide.md|Kiro IDE]] — Amazon AI-first IDE，Spec Mode + Vibe Mode
+
 ## 关联实体
 
 - [[entities/claude-code.md|Claude Code]]
