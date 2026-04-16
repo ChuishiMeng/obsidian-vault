@@ -24,8 +24,17 @@ Ontology-Schema 项目研究如何构建异构图谱驱动的 Schema + 业务知
 | P07 | DataFactory | arXiv | 2026 | Database + KG 双团队协作 |
 | P08 | RAT-SQL | ACL | 2020 | 关系感知 Schema 编码（开创性工作） |
 | P09 | RESDSQL | AAAI | 2023 | 解耦 Schema Linking 和 SQL 生成 |
+| P10 | SEDE | arXiv | 2021 | 真实世界 Text-to-SQL 数据集 |
+| P11 | DTS-SQL | arXiv | 2024 | 小模型分解微调策略 |
+| P13 | StructGPT | arXiv | 2023 | LLM 结构化数据推理通用框架 |
+| P15 | BOGIN | EMNLP | 2019 | 全局推理替代自回归解码 |
 | P16 | Sequeda KG Benchmark | GRADES | 2023 | KG→SPARQL→SQL，GPT-4 准确率 3x |
 | P23 | ATHENA | VLDB | 2016 | Ontology-driven NL→SQL 先驱系统 |
+| P24 | CHESS | arXiv | 2024 | BIRD SOTA 71.10%，四Agent渐进式剪枝 |
+| P25 | CodeS | arXiv | 2024 | 开源SOTA，3B超越GPT-4 |
+| P26 | C3 | arXiv | 2023 | Zero-shot SOTA 82.3% |
+| P27 | EHRSQL | arXiv | 2024 | 语义鸿沟实证 |
+| P28 | Spider 2.0 | ICLR | 2025 | 企业级基准，o1仅21.3% |
 
 ## 核心方法论
 
@@ -57,5 +66,6 @@ Ontology-Schema 项目研究如何构建异构图谱驱动的 Schema + 业务知
 
 ## 研究状态
 
-- **阶段**：P2 文献调研已完成（13 篇），P4 方案设计进行中
+- **阶段**：P1-P6 全部完成（27篇文献解读），P7 实验验证可启动
+- **最新里程碑**：2026-04-15 文献解读日，新解读8篇（P24-P28），Baseline覆盖完整
 - **预期效果**：Recall@K 提升 10%+，EX 提升 5%+，Token 降低 30%+

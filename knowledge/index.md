@@ -1,6 +1,6 @@
 # 知识库索引 - Knowledge Index
 
-> 最后更新：2026-04-15 03:00  
+> 最后更新：2026-04-16 03:00  
 > 说明：本索引由 AI Agent 自动维护，人类不需要手动编辑
 
 ---
@@ -50,6 +50,13 @@
 | 2026-04-14 | P38: SPIRIT 人口级 Persona 模拟             | 科研     | Painter+Reasoner 两阶段框架                  | [sources/p38-spirit-persona.md](sources/p38-spirit-persona.md) |
 | 2026-04-14 | P39: Persona Prompting 可靠性              | 科研     | 多属性 Persona 效果不一致警示                 | [sources/p39-persona-reliability.md](sources/p39-persona-reliability.md) |
 | 2026-04-14 | P23: ATHENA Ontology-driven NL→SQL        | 科研     | VLDB 2016 先驱系统，OQL→SQL 两阶段           | [sources/p23-athena.md](sources/p23-athena.md) |
+| 2026-04-15 | 辉哥奇谭精选推荐                     | 精选合集 | 1400+ 篇文章精选，焦虑/认知/家庭/投资四大主题 | [sources/huige-curated-recommendations.md](sources/huige-curated-recommendations.md) |
+| 2026-04-15 | 飞轮思维：让明天变得更好             | 文章     | Anthropic 飞轮案例，Token 飞轮，做减法       | [sources/flywheel-thinking.md](sources/flywheel-thinking.md) |
+| 2026-04-15 | 孟老师重疾险保单分析                 | 财务规划 | 太平50万+昆仑80万，双保单结构分析           | [sources/meng-teacher-insurance-analysis.md](sources/meng-teacher-insurance-analysis.md) |
+| 2026-04-15 | P10: SEDE 真实世界 Text-to-SQL        | 科研     | 真实世界数据集，学术vs企业差距               | [sources/p10-sede.md](sources/p10-sede.md) |
+| 2026-04-15 | P11: DTS-SQL 小模型分解微调          | 科研     | 开源小模型 vs 闭源大模型差距缩小策略         | [sources/p11-dts-sql.md](sources/p11-dts-sql.md) |
+| 2026-04-15 | P13: StructGPT 结构化数据推理         | 科研     | LLM 在 KG/表格/数据库上的通用推理框架       | [sources/p13-structgpt.md](sources/p13-structgpt.md) |
+| 2026-04-15 | P15: BOGIN 全局推理 Text-to-SQL       | 科研     | EMNLP 2019，全局推理替代自回归解码          | [sources/p15-bogin.md](sources/p15-bogin.md) |
 
 ### 技术类
 
@@ -112,6 +119,7 @@
 | **Kiro IDE** | Amazon AI-first IDE，Spec Mode + Vibe Mode 双模式 | [concepts/kiro-ide.md](concepts/kiro-ide.md) |
 | **LLM 用户模拟** | 用大语言模型模拟真实用户行为，四维分类体系 | [concepts/llm-user-simulation.md](concepts/llm-user-simulation.md) |
 | **KnowU-Bench** | 浙大 LLM user simulator 标准化评估基准，192 任务 | [sources/knowu-bench.md](sources/knowu-bench.md) |
+| **飞轮思维** | 今天的努力是否让明天加速，积累型 vs 消耗型判断框架 | [concepts/flywheel-thinking.md](concepts/flywheel-thinking.md) |
 
 ---
 
@@ -167,11 +175,11 @@
 
 | 类别 | 数量 |
 |------|------|
-| 素材 Sources | 50 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
-| 概念 Concepts | 22 个 |
+| 素材 Sources | 57 篇（文章/访谈/技术/视频/产品分析/科研）+ 5 个研究方向 |
+| 概念 Concepts | 23 个 |
 | 实体 Entities | 16 个 |
 | 主题 Topics | 18 个（含投资理财） |
-| 总 Wiki 页面 | 117 |
+| 总 Wiki 页面 | 128 |
 
 ---
 

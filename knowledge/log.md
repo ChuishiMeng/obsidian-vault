@@ -225,3 +225,39 @@
   - topics/investment/ 子页面 7 个 — 通过 topics/investment/index.md 管理，无需在主索引重复
 - 更新统计数据：44 sources（含 knowu-bench）, 22 concepts, 16 entities, 110 总页面
 - 双向链接：所有待补全项已完成 ✅
+
+## [2026-04-16] lint | 深夜自主模式知识库检查
+- 总页面：117+
+- 孤立页面：topics/openclaw-experience-collection-2026-04-07.md（历史归档）
+- topics/investment/ 子页面 8 个通过子索引管理，无需修复
+- 双向链接：全部补全 ✅
+- 新发现论文：arXiv 2604.08362（Real-world Human Behavior Simulation Benchmark）
+- 建议：收录到 sources/ 并更新虚拟用户研究主题
+
+## [2026-04-16 03:00] ingest-batch | 4月15日新增内容编译
+- 编译来源：~/agentKB/Obsidian/AI-Workspace/（2026-04-15 新增文件）
+- 新增 Sources（文章类）：
+  - huige-curated-recommendations.md（辉哥奇谭精选推荐，1400+篇精选，四大主题）
+  - flywheel-thinking.md（飞轮思维，Anthropic飞轮案例+Token飞轮+写作四标准）
+- 新增 Sources（投资/财务规划）：
+  - meng-teacher-insurance-analysis.md（孟老师重疾险保单分析，太平+昆仑双保单）
+- 新增 Sources（科研论文）：
+  - p10-sede.md（P10: SEDE 真实世界 Text-to-SQL 数据集）
+  - p11-dts-sql.md（P11: DTS-SQL 小模型分解微调）
+  - p13-structgpt.md（P13: StructGPT 结构化数据推理框架）
+  - p15-bogin.md（P15: BOGIN 全局推理 Text-to-SQL）
+- 新增 Concepts：
+  - flywheel-thinking.md（飞轮思维概念页）
+- 新增 Investment 页面：
+  - topics/investment/book-comparison.md（两本书对比分析）
+  - topics/investment/book-reading-dca-decade.md（定投十年财务自由分章节解读）
+  - topics/investment/valuation-2026-04-15.md（螺丝钉估值3.9星）
+- 更新主题页：
+  - topics/ontology-schema.md（论文+8：P10/P11/P13/P15/P24-P28，研究状态更新至P6完成）
+- 跳过：
+  - Research/ontology-schema/P2-P6 更新版（已在主题页体现，不重复编译）
+  - Research/ontology-schema/TASKS.md（项目管理文件，非知识内容）
+  - 投资/估值记录/2026-04-10、2026-04-12、2026-04-14（已收录）
+- 总 Wiki 页面：117 → 128（+11 页面）
+- 所有页面带 YAML frontmatter 和 [[双链]] 交叉引用
+- 来源：管家小新 cron 定时编译
